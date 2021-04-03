@@ -3,6 +3,7 @@ import React from "react"
 //import Footer from "../components/Footer"
 //import Header from "../components/Header"
 import Layout from "../components/Layout"
+import Button from '@material-ui/core/Button';
 
 export default function Home() {
   return (
@@ -21,6 +22,12 @@ export default function Home() {
         <br />
         <br />
         <Link to="/app/page1">My Client side Routes</Link>
+
+        <br />
+        <br />
+        <Button color="secondary" variant="contained">
+          Hello From material UI
+        </Button>
 
       </Layout>
     </div>
