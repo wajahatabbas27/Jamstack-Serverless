@@ -15,6 +15,12 @@ export default function Home() {
         <br />
         <br />
         <Link to="/dynamicPage">My Dynamic Page</Link>
+        <br />
+        <br />
+        <Link to="/app/">My Client side Routes main page</Link>
+        <br />
+        <br />
+        <Link to="/app/page1">My Client side Routes</Link>
 
       </Layout>
     </div>
