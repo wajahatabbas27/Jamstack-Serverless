@@ -14,6 +14,7 @@ export default function Home() {
         <Link to="/about">About</Link>
         <br />
         <br />
+        <Link to="/dynamicPage">My Dynamic Page</Link>
 
       </Layout>
     </div>
